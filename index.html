@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muskan | Software Developer Portfolio</title>
+  <style>
+    /* Background gradient animation */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ffafbd);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color: #222;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes gradientBG {
+      0% {background-position:0% 50%;}
+      50% {background-position:100% 50%;}
+      100% {background-position:0% 50%;}
+    }
+
+    header {
+      padding: 80px 20px 40px;
+    }
+    h1 {
+      font-size: 3.6rem;
+      margin-bottom: 0;
+      color: #4B2247; /* Dark maroon instead of purple */
+      text-shadow: 0 0 15px #7a4569;
+    }
+    h2 {
+      margin-top: 5px;
+      font-weight: 600;
+      font-size: 1.4rem;
+      color: #4B2247; /* Dark maroon */
+      letter-spacing: 1.2px;
+    }
+
+    section {
+      max-width: 800px;
+      background: white;
+      border-radius: 18px;
+      padding: 30px 25px;
+      margin: 40px auto;
+      box-shadow: 0 12px 30px rgba(168, 53, 130, 0.3);
+      text-align: left;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #4B2247; /* Dark maroon */
+      margin-bottom: 25px;
+      font-size: 2rem;
+      letter-spacing: 1.3px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #f6e6f2;
+      border-radius: 14px;
+      padding: 18px 20px;
+      width: 220px;
+      box-shadow: 0 6px 18px rgba(168, 53, 130, 0.2);
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(168, 53, 130, 0.4);
+    }
+
+    .card strong {
+      color: #6a0572;
+      font-size: 1.15rem;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #a83279;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px 10px;
+      color: #4B2247; /* Dark maroon */
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 30px;
+    }
+
+    @media(max-width: 640px) {
+      section {
+        width: 90%;
+      }
+      .skills, .projects {
+        flex-direction: column;
+        align-items: center;
+      }
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muskan</h1>
+    <h2>Pre-Final Year B.Tech | Aspiring Software Developer</h2>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated and passionate pre-final year Computer Science student focused on building a strong foundation in software development.  
+      I believe in continuous learning, problem-solving, and applying concepts in real projects.  
+      Currently, I am sharpening my skills in Java, data structures & algorithms, and exploring full stack development to become a versatile developer.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Java</div>
+      <div class="card">Data Structures & Algorithms</div>
+      <div class="card">Object-Oriented Programming</div>
+      <div class="card">Basic HTML & CSS</div>
+      <div class="card">Problem Solving</div>
+      <div class="card">Git & GitHub</div>
+      <div class="card">Effective Communication</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects & Learning</h2>
+    <div class="projects">
+      <div class="card">
+        <strong>Focused Learning</strong>
+        Dedicated to mastering Java fundamentals and OOP principles through hands-on coding exercises.
+      </div>
+      <div class="card">
+        <strong>DSA Practice</strong>
+        Regularly solving algorithmic problems to improve logical thinking and coding speed.
+      </div>
+      <div class="card">
+        <strong>Full Stack Exploration</strong>
+        Exploring basics of web development technologies with plans to build real projects soon.
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <p>
+      ✔️ Selected as GSoC’24 Contributor<br />
+      ✔️ Active participant in coding challenges<br />
+      ✔️ Strong foundation in core CS concepts
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:muskan280808@gmail.com">muskan280808@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Muskandixit" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/muskan-a69447282/" target="_blank">linkedin.com/in/yourusername</a></p>
+  </section>
+
+  <footer>© 2025 Muskan. All rights reserved.</footer>
+</body>
+</html>
+
+
